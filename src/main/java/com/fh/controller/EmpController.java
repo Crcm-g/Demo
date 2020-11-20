@@ -185,6 +185,11 @@ public class EmpController {
         return empService.query();
     }
 
+    @RequestMapping("test")
+    public String test(){
+        return " is successfully";
+    }
+
 
     @RequestMapping("add")
     private ServiceResponse add(){
